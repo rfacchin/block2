@@ -1,7 +1,0 @@
-dns
-git (commit)
-vm (pull)
-
-include validator to the .doc
-add references into the .doc
-
