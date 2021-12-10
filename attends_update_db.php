@@ -105,8 +105,8 @@
         echo "<tr>";
         echo "<td>" . $attend_array["astronaut_id"] . "<td>" . $astronaut_array["name"] . "<td>" . " " . $attend_array["mission_id"]. "<td>" . $mission_array["destination"];?>
         <td><a href="attends_delete_db.php?id=<?php echo $attend_array["astronaut_id"]?>&mission=<?php echo $attend_array["mission_id"]?>&astronaut=<?php echo $attend_array["astronaut_id"]?>" onclick="return confirm('Are you sure?')">Delete</a></td>
-        <td><a href="attends_delete_db.php?id=<?php echo $attend_array["astronaut_id"]?>" onclick="return confirm('Are you sure?')">Delete</a></td> -->
         
+
     <?php
 
         
